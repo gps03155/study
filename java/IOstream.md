@@ -46,7 +46,7 @@ write()
 
 
 입력 스트림 | 출력 스트림 | 입출력 대상
---- | --- | --- | --- |
+--- | --- | --- | 
 FileInputStream|FileOutputStream|파일
 ByteArrayInputStream|ByteArrayOutputStream|메모리
 PipedInputStream|PipedOutputStream|프로세스
