@@ -1,0 +1,28 @@
+
+I/O
+byte VS char
+주 스트림 , 보조 스트림
+
+- byte
+InputStream (추상)
+ByteArrayInputStream - 주
+FileInputStream - 주
+OutputStream (추상)
+ByteArrayOutputStream - 주
+FileOutputStream - 주
+
+BufferedInputStream - 부
+BufferedOutputStream - 부
+
+- char
+Reader
+FileReader - 주
+Writer
+FileWriter - 주
+
+BufferedReader - 부
+BufferedWriter - 부
+
+byte -> char
+InputStreamReader - 부
+OutputStreamReader - 부
