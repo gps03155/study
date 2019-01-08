@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ### Collection Framework
 ---
 
@@ -280,4 +279,3 @@ iterator 쓸 때 순서가 보장되지 않을 수 있음
 <br><br>
 
 >### __java version 1.4 전후로 나눠짐 (후 : Collection Framework)__
->>>>>>> 3175f3de7790f097a4067c55d2a8915e3256107c
