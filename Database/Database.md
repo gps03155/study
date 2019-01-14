@@ -21,6 +21,11 @@
 
 4. 공용 데이터 (Shared Data)
    여러 응용 시스템들이 공동으로 소유하고 유지하는 자료
+
+
+DA           - Data Architect
+DBA          - DB Administrator
+DB Developer - SQL (CRUD)
 ~~~
 
 <br>
