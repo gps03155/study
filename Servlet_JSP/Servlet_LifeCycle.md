@@ -14,11 +14,11 @@ __서블릿 객체가 생성, 실행, 소멸되는 과정에서 호출되는 특
 
 <br>
 
-### 1. 요청이 오면 Servlet 클래스가 로딩되어 요청에 대한 Servlet 객체가 생성
-### 2. 서버는 init() 메소드를 호출해서 Servlet을 초기화
-### 3. service() 메소드를 호출해서 Servlet이 브라우저의 요청을 처리하도록 함
-### 4. service() 메소드는 특정 HTTP 요청 (GET, POST 등)을 처리하는 메소드(doGet(), doPost() 등)을 호출
-### 5. 서버는 destroy() 메소드를 호출하여 Servlet을 제거
+#### 1. 요청이 오면 Servlet 클래스가 로딩되어 요청에 대한 Servlet 객체가 생성
+#### 2. 서버는 init() 메소드를 호출해서 Servlet을 초기화
+#### 3. service() 메소드를 호출해서 Servlet이 브라우저의 요청을 처리하도록 함
+#### 4. service() 메소드는 특정 HTTP 요청 (GET, POST 등)을 처리하는 메소드(doGet(), doPost() 등)을 호출
+#### 5. 서버는 destroy() 메소드를 호출하여 Servlet을 제거
 
 <br><br>
 
