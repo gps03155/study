@@ -54,11 +54,11 @@ _HTML로는 웹의 내용을 작성하고, CSS로는 웹을 디자인하며, 자
 - 자바스크립트에서 가장 간단하게 데이터를 출력할 수 있는 방법
 - window 객체의 모든 메소드나 프로퍼티르 사용할 때는 window라는 접두사 생략 가능
 
-`
+~~~
 <script>
   alert("alert 창 띄우기");
 </script>
-`
+~~~
 
 <br>
 
@@ -68,13 +68,13 @@ __HTML 요소의 내용(content)이나 속성(attribute) 값 등을 손쉽게 �
 
 - document 객체의 `getElementById()`나 `getElementsByTagName()` 등의 메소드를 이용
 
-`
+~~~
 <script>
   var str = document.getElementById("text");
 
   str.innerHTML = "문장 변경";
 </script>
-`
+~~~
 
 <br>
 
@@ -86,13 +86,13 @@ __웹 페이지가 로딩될 때 실행되면 웹 페이지에 가장 먼저 데
 - 웹 페이지의 모든 내용이 로딩된 후 `document.write()` 메소드가 실행되면 웹 페이지 내에 먼저 로딩된 모든 데이터를 지우고 자신의 데이터 출력
 - 테스트 이외의 용도로 사용할 때는 주의해서 사용해야함
 
-`
+~~~
 <script>
   document.write(4 * 5);
 </script>
 
 <button onclick="document.write(4*5)">버튼</button>
-`
+~~~
 
 <br>
 
@@ -103,11 +103,11 @@ __웹 브라우저의 콘솔을 통해 데이터 출력__
 - F12를 누른 후 콘솔 화면에 내용 출력
 - 콘솔 화면을 통한 데이터의 출력은 좀 더 자세한 사항까지 출력되므로 디버깅하는데 많은 도움을 줌
 
-`
+~~~
 <script>
   console.log(4*5);
 </script>
-`
+~~~
 
 <br><br>
 
@@ -126,11 +126,11 @@ __<script> 태그를 사용하여 HTML 문서 안에 삽입__
 
 - HTML 문서의 `<head>` 태그나 `<body>` 태그에 위치할 수 있지만 `<head>`에 위치하는 것이 좋음
 
-`
+~~~
 <script>
   document.getElementById("text").innerHTML = "내부 코드";
 </script>
-`
+~~~
 
 <br>
 
@@ -144,9 +144,9 @@ __외부 파일로 생성하여 삽입__
 - HTML 코드와 자바스크립트 코드를 읽기도 편해지며 유지보수 용이
 - 웹 브라우저가 미리 읽어 올 수 있어 웹 페이지의 로딩 속도 빨라짐
 
-`
+~~~
 <head>
   <script src="examples/example.js">
   </script>
 </head>
-`
+~~~
