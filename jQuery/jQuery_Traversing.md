@@ -154,3 +154,62 @@ __prev(), prevAll(), prevUntil() 메소드는 위의 메소드와 동일한방�
 (이전 형제 요소 반환 - DOM 트리의 형제 요소를 따라 뒤로 이동)
 
 <br><br>
+
+>### Filtering
+
+<br>
+
+- `first()`, `last()`, `eq()` : 요소 그룹에서 위치를 기반으로 특정 요소 선택
+- `filter()`, `not()` : 특정 기준과 일치하거나 일치하지 않는 요소 선택
+
+<br>
+
+- `first()`
+__지정된 요소의 첫 번쨰 요소 반환__
+~~~
+$(document).ready(function(){
+  $("div").first(); // 첫번째 <div> 요소 선택
+});
+~~~
+
+<br>
+
+- `last()`
+__지정된 요소의 마지막 요소 반환__
+~~~
+$(document).ready(function(){
+  $("div").last(); // 마지막 <div> 요소 선택
+});
+~~~
+
+<br>
+
+- `eq()`
+__선택된 요소의 특정 인덱스 번호를 가진 요소 반환__
+~~~
+$(document).ready(function(){
+  $("p").eq(index); // index번째 <p> 요소 선택
+});
+~~~
+
+<br>
+
+- `filter()`
+__조건을 지정할 수 있음__
+(기준과 일치하지 않는 요소는 선택 항목에서 제거되고 일치하는 요소는 반환)
+~~~
+$(document).ready(function(){
+   $("p").filter(".intro"); // 클래스 이름이 intro인 모든 <p>인 요소 반환
+});
+~~~
+
+<br>
+
+- `not()`
+__조건과 일치하지 않는 모든 요소 반환__
+(not() 메소드는 filter()와 반대)
+~~~
+$(document).ready(function(){
+  $("p").not(".intro"); // 클래스 이름이 intro가 아닌 모든 <p> 요소 반환
+});
+~~~
