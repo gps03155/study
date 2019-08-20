@@ -104,6 +104,7 @@ for(HashMap deptMap : deptList){
 `stream`은 내부적으로 반복하기 때문에 `for`문을 줄여도 같은 결과 도출 가능
 
 - Grouping 순서 유지
+
 기본적으로 `stream().collect(Collectors.groupingby())`는 순서를 유지하지 않은채 그룹화
 기존의 순서를 유지하면서 그룹화 하고 싶을 경우 파라미터를 추가해야함
 
